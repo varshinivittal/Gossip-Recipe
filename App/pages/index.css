@@ -1,0 +1,153 @@
+.header {
+  overflow: hidden;
+  background-color:  black;
+  padding: 5px 5px;
+}
+
+
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.logo {
+  font-size: 50px;
+  font-style: oblique;
+  color: white;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+.img {
+  background-image: url("food1.jpg");
+  background-repeat: no-repeat;
+  padding-bottom: 143px;
+ 
+}
+
+.form {
+  width: 30%;
+  margin: auto;
+  padding-top: 100px; 
+}
+
+
+.signin {
+  background-image: url("food1.jpg");
+  background-repeat: no-repeat;
+  padding-bottom: 37px;
+  
+}
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+
+element.style {
+}
+@media (min-width: 768px)
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: -15px;
+}
+.navbar-default .navbar-brand {
+    color: #777;
+}
+
+.navbar-default {
+    background-color: rgba(219, 84, 97, 0.8);
+}
+
+.navbar-form {
+    float: left!important;
+}
+
+.navbar-left {
+    float: left!important;
+}
+
+.banana {
+  background-image: url("download.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 45vmin 55vmin;
+  }
+
+  #Heading {
+    font-size: 40px;
+    color: #FCB97D !important;
+    font-weight: bold;
+  }
+  #Add {
+    font-size: 30px;
+    margin-left: 100vmin;
+    color: #FCB97D !important;
+  }
+  .modal-content {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 10%;
+    background-color: #f7e6d2;
+    border-radius: 10px;
+}
+   .modal-input {
+    width: 450px;
+    margin: auto;
+}
+
+.modal-btn-container {
+    margin: 5% 0 5% 10%;
+}
+
+.heading {
+  font-weight: 900;
+  margin-top: 100px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-style: italic;
+ }
+
+.heading2 {
+  text-align: center;
+  margin-top: 70px;
+  color: black;
+  font-weight: bold;
+
+}
